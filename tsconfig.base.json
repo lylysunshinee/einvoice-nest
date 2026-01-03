@@ -17,7 +17,11 @@
     "paths": {
       "@common/constants/*": ["libs/constants/src/lib/*"],
       "@common/constants": ["libs/constants/src/index"],
-      "@common/configuration/*": ["libs/configuration/src/lib/*"]
+      "@common/configuration/*": ["libs/configuration/src/lib/*"],
+      "@common/middlewares/*": ["libs/middlewares/src/lib/*"],
+      "@common/utils/*": ["libs/utils/src/lib/*"],
+      "@common/interfaces/*": ["libs/interfaces/src/lib/*"],
+      "@commom/interceptors/*": ["libs/interceptors/src/lib/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
